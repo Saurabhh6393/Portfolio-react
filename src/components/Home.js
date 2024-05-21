@@ -9,6 +9,7 @@ function Home() {
   return (
      <>
      <div className="max-w-screen-2x1 container mx-auto px-4 md:px-20 my-10 " >
+      
      <div className='flex flex-col md:flex-row'>
      <div className='md:w-1/2 mt-10 md:mt-12 space-y-2 md:ml-24 order-2 md:order-1'>
         <span className='text-2xl'>Hello, My name is   </span>
@@ -33,14 +34,14 @@ function Home() {
         <div className='space-y-2 '>
             <h1 className='text-xl font-bold'>Available on</h1>
             <div className='flex space-x-4  text-2xl cursor-pointer '>
-            <a href="https://x.com/SaurabhSingh090" rel="noopener" target="_blank"><FaSquareXTwitter /></a>
-            <a href="https://www.linkedin.com/in/saurabh-singh-b30333260/" target="_blank"><FaLinkedin /></a>
-            <a href="https://github.com/Saurabhh6393" target="_blank"><FaSquareGithub /></a>
+            <a href="https://x.com/SaurabhSingh090" rel="noopener" target="blank"><FaSquareXTwitter /></a>
+            <a href="https://www.linkedin.com/in/saurabh-singh-b30333260/" target="blank"><FaLinkedin /></a>
+            <a href="https://github.com/Saurabhh6393" target="blank"><FaSquareGithub /></a>
             </div>
            
         </div>
         <div>
-            <buuton>Download CV</buuton>
+            <a href='/resume.pdf' download={true}><button className='bg-blue-700  text-white font-bold px-4 py-2 rounded'>Download CV</button></a>
         </div>
         </div>
      </div >

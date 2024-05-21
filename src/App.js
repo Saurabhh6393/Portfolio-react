@@ -1,15 +1,19 @@
 import React from 'react';
-import Navbar from './components/Navbar'
-import Home from './components/Home'
 
+import Home from './components/Home'
+import Skills from './components/Skills';
+import Projects from './components/Projects'
 import Education2 from './components/Education2';
+import Footer from './components/Footer';
 function App() {
   return (
     <>
-       <Navbar/>   
+         
        <Home />
-       
        <Education2 />
+       <Skills/>
+       <Projects/>
+       <Footer/>
  </>    
   );
 }

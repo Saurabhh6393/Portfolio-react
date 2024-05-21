@@ -2,8 +2,8 @@ import React from 'react'
 
 const Education2 = () => {
   return (
-    <div className='max-w-screen-2x1 container mx-auto px-4 md:px-20 my-10 '>
-        <h1 className='  text-2xl font-bold md:ml-72 md:my-6'> Education Details-</h1>
+    <div className='max-w-screen-2x1 container mx-auto px-4 md:px-20 my-4 '>
+        <h1 className='  text-2xl font-bold md:ml-72 md:my-6 underline underline-offset-4'> Education Details-</h1>
     <div className="grid grid-cols-2 gap-4 my-6">
     <div>
     <h1 className='my-2 md:ml-72 md:text-2xl text-red-700'>Master of Computer Application  </h1>
