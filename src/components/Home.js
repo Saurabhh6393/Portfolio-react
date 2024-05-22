@@ -46,7 +46,7 @@ function Home() {
         </div>
      </div >
      <div className="md:w-1/2 md:ml-48 md:mt-8 mt-12 sm:order-1 md:order-2 mt-1">
-        <img src='portpicjpg.jpg' className='rounded md:w-[400px] md:h-[550px] h-[300px] w-[350px]' alt=''/>
+        <img src='portpicjpg.jpg' className='rounded md:w-[400px] md:h-[550px] h-[500px] w-[350px]' alt=''/>
      </div>
      </div>
      </div>
